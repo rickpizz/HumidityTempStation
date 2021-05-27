@@ -15,21 +15,36 @@ Pode ser usado e adaptado para casos específicos, como, medir a temperatura de 
 
 É uma plataforma open source ou hardware para prototipagem eletrônica, projetada com um microcontrolador Atmel AVR com suporte para entrada/saída dados já embutido, com linguagem de programação padrão baseado no em C/C++. Com 14 entradas e saídas digitais, sendo seis delas com Pulse With Modelation, microcontrolador com velocidade de 16MHz, 2Kb de memória de execução, 32Kb de memória de armazenamento, possui operação da placa em 5V, podendo ser alimentada por fontes de 7V a 12V.
 
+![image](https://user-images.githubusercontent.com/48699967/119746316-9a52ee80-be66-11eb-9d33-0a13154fb88f.png)
+
+
 * **Protoboard**
 
 Permitirá uma maior área de trabalho, organização, e possibilitará a gamificação e inserção de diversos sensores e conexões no projeto.
+
+![image](https://user-images.githubusercontent.com/48699967/119746323-a0e16600-be66-11eb-8ba0-b01b6dbcded1.png)
+
 
 * **Sensor de Temperatura e Humidade DHT11**
 
 O sensor será responsável por medir a temperatura e Humidade do ambiente em que está inserido, e comunicará estes dados para o seu microcontrolador.
 
+![image](https://user-images.githubusercontent.com/48699967/119746337-a9d23780-be66-11eb-8308-3de225f12d6d.png)
+
+
 * **Jumpers**
 
 Conjunto de fios condutores utilizados para conectar extremidades distintas do circuito do projeto.
 
+![image](https://user-images.githubusercontent.com/48699967/119746350-b5bdf980-be66-11eb-9404-6ebe9ba522a7.png)
+
+
 * **Micro Servo SG90**
 
 Utilizado no projeto para demonstrar um termômetro visual na ProtoBoard, que com seu braço mecânico irá movimentar conforme a medição da temperatura indicada, apontando em a temperatura em um desenho feito com a escala de temperatura em Celsius, podendo ser alternada para humidade. Funcionalidade semelhante ao apontador de um velocímetro.
+
+![image](https://user-images.githubusercontent.com/48699967/119746375-bfdff800-be66-11eb-89ca-4a7de8e15b03.png)
+
 
 ## Softwares utilizados no projeto
 
@@ -66,15 +81,24 @@ sudo apt-get update
 
 Utilizado no projeto como ferramenta-base para programação de todos os sensores, atuadores e placas inseridos no contexto de desenvolvimento do projeto.
 
+![image](https://user-images.githubusercontent.com/48699967/119746526-0b92a180-be67-11eb-9c71-b580d62d41c4.png)
+
+
 
 * **[HiveMQ CLoud](https://www.hivemq.com/mqtt-cloud-broker/)**
 
 Para utilização de um servidor que suportasse as mensagens PUB/SUB do broker MQTT, utilizamos o Hive MQ Cloud, um serviço web que permite utilizar de deus dados nos atributos do broker e plataforma de visualização de dados. Sua vantagem é o fato de suportar toda a especificação do protocolo MQTT, sendo também escalável.
 
+![image](https://user-images.githubusercontent.com/48699967/119746468-ef8f0000-be66-11eb-96f3-ceb7565dd9c4.png)
+
+
 
 * **[Node-RED](https://nodered.org/)**
 
 Feito pela IBM e demonstrado em aula, é uma plataforma desenvolvida para interação de diversos hardwares. Foi utilizado para visualização gráfica dos dados, a partir de um char semelhante a um velocímetro de um carro, possuindo versatilidade quanto à origem do dado representado na tela, podendo ser temperatura ou humidade, baseado nas informações enviadas pelo Mosquitto. É uma ferramenta bastante intuitiva para o desenvolvimento necessário no projeto. 
+
+![image](https://user-images.githubusercontent.com/48699967/119746436-e0a84d80-be66-11eb-8850-8e26f7b0d7fa.png)
+
 
 * **[Fritzing](https://fritzing.org/)**
 
