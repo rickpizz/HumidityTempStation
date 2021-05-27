@@ -4,6 +4,10 @@ Em uma Cidade Grande igual São Paulo, ou em cidades de interiores menores, semp
 Baseado nisso, o projeto visa exercer o papel de uma estação móvel de controle e medição de temperatura e umidade, porém, conta como vantagens extremamente úteis, como: seu tamanho compacto e sua vasta gama de adaptações. 
 Pode ser usado e adaptado para casos específicos, como, medir a temperatura de uma câmara fria por exemplo, mas, a priori, o foco é medir a temperatura e umidade do ar, no ambiente em que está inserido. A estação conta com a Placa Arduino Uno R3 como principal placa eletrônica, a protoboard que irá fornecer maiores possibilidades de conectividade, possui o sensor Dht11, responsável por medir e temperatura e humidade, que comunica esses dados para o seu próprio microcontrolador, e o servo motor, que será responsável pela indicação dessa temperatura visualmente, e através do protocolo MQTT, os dados serão transmitidos para um WebService, que possibilizará a disponibilização destes dados, com pouco segundos de atraso, para o site, fornecendo a visualização dos dados gerados através de qualquer aparelho com internet e um navegador.
 
+![WhatsApp_Image_2021-05-23_at_15 45 24-removebg-preview (1)](https://user-images.githubusercontent.com/48699967/119746232-5eb82480-be66-11eb-8bb8-66bd26bc0271.png)
+![principal-removebg-preview](https://user-images.githubusercontent.com/48699967/119746242-61b31500-be66-11eb-85ea-c8f2b093dd3f.png)
+
+
 
 ## Hardware utilizados no projeto
 
@@ -74,7 +78,11 @@ Feito pela IBM e demonstrado em aula, é uma plataforma desenvolvida para intera
 
 * **[Fritzing](https://fritzing.org/)**
 
-Para efeitos de diagramação, representação digital e testes de hardware, foi utilizado o Fritzing, plataforma open source com objetivos e aplicabilidade que se encaixam no contexto do projeto. Os diagramas estão nos arquivos do repositório
+Para efeitos de diagramação, representação digital e testes de hardware, foi utilizado o Fritzing, plataforma open source com objetivos e aplicabilidade que se encaixam no contexto do projeto. Os diagramas estão nos arquivos do repositório.
+
+![DIAGRAMAScircuitoEELETRO_Esquemático](https://user-images.githubusercontent.com/48699967/119746268-72638b00-be66-11eb-83a9-34591408aefa.png)
+![DIAGRAMAScircuitoEELETRO_bb](https://user-images.githubusercontent.com/48699967/119746269-7394b800-be66-11eb-8a7c-3e59dc0640ac.png)
+
 
 
 
